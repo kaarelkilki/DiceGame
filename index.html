@@ -23,16 +23,28 @@
 </head>
 
 <body>
-  <h1><i class="fas fa-dice fa-flip-horizontal"></i> DiceGame <i class="fas fa-dice"></i></h1>
-  <h2 id="resultText">Push the button to play</h2>
-  <button id="playButton" class="btn btn-lg" type="button" onclick="playDice()">PLAY</button>
-  <br>
-  <img id="player1" class="img" src="images/dice0.png" alt="">
-  <img id="player2" class="img" src="images/dice0.png" alt="">
-  <br>
-  <p>&copy Copyright Kaarel Kilki</p>
+<div class="row">
+  <div class="col-lg">
+    <h1><i class="fas fa-dice fa-flip-horizontal"></i> DiceGame <i class="fas fa-dice"></i></h1>
+    <h2 id="resultText">Push the button to play</h2>
+    <button id="playButton" class="btn btn-lg" type="button" onclick="playDice()">PLAY</button>
+    <br>
+    <div class="row justify-content-center">
+      <div class="col-md-2">
+        <p>Player 1</p>
+        <img id="player1" class="img" src="images/dice0.png" alt="dice for player 1">
+      </div>
+      <div class="col-md-2">
+        <p>Player 2</p>
+        <img id="player2" class="img" src="images/dice0.png" alt="dice for player 2">
+      </div>
+    </div>
+
+  </div>
+</div>
 </body>
 <footer>
+  <p id="copy">&copy Copyright Kaarel Kilki</p>
   <!-- Javascript -->
   <script type="text/javascript">
     function playDice(){

@@ -15,7 +15,7 @@ h2 {
 }
 
 p {
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .btn {
@@ -31,4 +31,8 @@ p {
 
 .img {
   margin: 0 2rem;
+}
+
+#copy {
+  padding-top: 3rem;
 }
